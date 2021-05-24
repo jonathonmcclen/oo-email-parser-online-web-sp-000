@@ -13,8 +13,6 @@ class EmailAddressParser
   
   def parse
     parsed = @emails.split(", ").chomp
-    parsed = @emails.split(" ").chomp
-    parsed = @emails.split(" ").chomp
   end
   
 end 
