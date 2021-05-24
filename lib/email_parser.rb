@@ -14,6 +14,13 @@ class EmailAddressParser
   def parse
     @emails = @emails.gsub(/,/, "")
     @emails = @emails.split(" ")
+    self.remove_duplicates
+  end
+  
+  def remove_duplicates
+    @emails.each do |email|
+      @emails.detect
+    end
   end
   
 end 
